@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flower Shop</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+
+
+</head>
+
+<body>
+  <header>
+    <div>
+      <h1 class="text-center font-bold mt-4 text-4xl">All Flower Cards</h1>
+
+    </div>
+    <div class="flex mx-auto justify-items-center w-4/5	">
+      <div id="div1" class="card w-3/12 bg-base-200   ">
+        <div class="px-10 pt-10">
+          <img src="./img/ks-kyung-CiUQ59SgRwk-unsplash.jpg" alt="Shoes" class="rounded-xl " />
+        </div>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">Flower </h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus.</p>
+          <h6 class="text-xl font-semibold">Price : 50 $</h6>
+
+
+          <button onclick="allFlowerBtn(this)" class="btn btn-primary">Buy Now</button>
+
+        </div>
+      </div>
+      <div class="card w-3/12 bg-base-200 max-h-64">
+        <div class="px-10 pt-10">
+          <img src="./img/melanie-kreutz-hMMc7mvb34A-unsplash.jpg" alt="Shoes" class="rounded-xl " />
+        </div>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">Melanie Flower </h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus.</p>
+          <h6 class="text-xl font-semibold">Price : 50 $</h6>
+
+          <button onclick="allFlowerBtn(this)" class="btn btn-primary">Buy Now</button>
+
+        </div>
+      </div>
+      <div class="card w-3/12 bg-base-200 max-h-64 ">
+        <div class="px-10 pt-10">
+          <img src="./img/pink-rose-on-pink.jpg" alt="Shoes" class="rounded-xl " />
+        </div>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">Pink Flower </h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus.</p>
+          <h6 class="text-xl font-semibold">Price : 30 $</h6>
+
+
+          <button onclick="allFlowerBtn(this)" class="btn btn-primary">Buy Now</button>
+
+        </div>
+      </div>
+
+      <div class="mt-20 ml-20 bg-red-200 h-1/2 p-4 rounded-xl">
+        <h1 class="text-xl font-bold">Code : CODE10</h1>
+        <div class="text-xl font-semibold" id="selected-item">
+
+        </div>
+        <h3 class="text-xl font-semibold">Total : <span id="total-price">00</span></h3>
+        <h3 class="font-semibold text-xl">Discount : <span>10%</span></h3>
+        <br>
+        <input type="text" name="" placeholder="plz enter your code" id="code-input">
+        <br>
+        <h2 class="text-xl font-bold">Grand Total : <span id="grand-total">00</span> $</h2>
+      </div>
+
+
+    </div>
+
+  </header>
+  <script src="js/test.js"></script>
+
+</body>
+
+</html>
